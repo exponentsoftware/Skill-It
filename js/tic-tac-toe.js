@@ -1,4 +1,4 @@
-// TIC TAC TOE
+git // TIC TAC TOE
 
 const tic_tac_toe = {
 
@@ -104,6 +104,8 @@ const tic_tac_toe = {
   },
 
   draw() {
-    this.container_element.innerHTML = this.board.map((element, index) => `<div onclick="tic_tac_toe.make_play('${index}')"> ${element}</div>`).reduce((content, current) => content + current);
+    this.container_element.innerHTML = this.board.map(
+      (element, index) => `<div onclick="tic_tac_toe.make_play('${index}')"> ${element}</div>`)
+      .reduce((content, current) => content + current);
   },
 };
