@@ -1,2 +1,2 @@
 
-![flow-graph](image/<final.png>)
+![flow-graph](image/final.png)
