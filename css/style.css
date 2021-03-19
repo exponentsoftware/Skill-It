@@ -38,7 +38,7 @@ body {
 }
 
 .game > div.winner > span {
-  color: blue;
+  color: lightskyblue;
 }
 
 @media (min-width: 600px) {
