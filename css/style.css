@@ -34,11 +34,11 @@ body {
 }
 
 .game > div.winner {
-  background: yellow;
+  background: lightgreen;
 }
 
 .game > div.winner > span {
-  color: blue;
+  color: lightskyblue;
 }
 
 @media (min-width: 600px) {
